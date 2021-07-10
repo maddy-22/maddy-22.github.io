@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 15%;
+    text-align: left;
+    padding-left: 50px;
+    
+  }
+  
+  .menu a {
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-family: "Raleway";
+  }
+
+  .main {
+    float: left;
+    width: 55%;
+    padding: 30px;
+    padding-top: 20px;
+
+  
+  }
+  
+  .main1 {
+    float: left;
+    width: 85%;
+    padding: 40px;
+    
+  }
+
+  .right {
+    float: right;
+    width: 30%;
+    font-size: 14px;
+    font-family: "Raleway";
+    padding-left: 40px;
+    padding-top: 90px;
+    margin-top: 7px;
+    text-align: left;
+  }
+
+  hr {
+      width:30%; 
+      margin-left:0; 
+      background-color:rgb(255, 0, 0);
+      height: 3px;
+     }
+
+  img {
+    border-radius: 50%;
+  }   
+
+ div.polaroid {
+        width: 140px;
+        height: 170px;
+        border-radius: 10px;
+        padding-top: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+      }
+      
+ div.container {
+        padding: 0px;
+      }
+
+  .img-container{
+    display: flex;
+    justify-content: space-between;
+  }    
+
+button {
+  border-radius: 30px;
+  background-color: red;
+  text-align: center;
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  margin: 2px 4px;
+  width: 130px;
+}
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
+  
